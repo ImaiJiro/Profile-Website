@@ -5,9 +5,9 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <title>Imai Jiro's Personal Site</title>
-  <meta content="" name="description" />
-  <meta content="" name="keywords" />
+  <title>Imai Jiro | Game Developer</title>
+  <meta content="Portfolio of Imai Jiro — Unity and Unreal Engine game developer based in Tokyo, Japan." name="description" />
+  <meta content="Game Developer, Unity, Unreal Engine, Portfolio, Imai Jiro" name="keywords" />
 
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon" />
@@ -19,8 +19,16 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/theme.css" rel="stylesheet" />
 
   <!-- =======================================================
   * Template Name: DevFolio - v4.7.1
@@ -35,7 +43,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
       <h1 class="logo">
-        <a href="index.html">Welcome to my Personal Site</a>
+        <a href="index.html">Imai Jiro<span class="logo-jp">ゲーム開発者</span></a>
       </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -45,7 +53,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#work">Work</a></li>
+          <li><a class="nav-link scrollto" href="#work">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#blog">Blog</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
@@ -62,12 +70,15 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Imai Jiro</h1>
+          <p class="hero-eyebrow">東京 / TOKYO &middot; JAPAN</p>
+          <h1 class="hero-title mb-3">Imai Jiro</h1>
           <p class="hero-subtitle">
-            <span class="typed" data-typed-items="Game Developer"></span>
+            <span class="typed" data-typed-items="Game Developer, Unity Expert, Unreal Engine Developer"></span>
           </p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+          <p class="hero-jp">ゲーム開発者 &mdash; Unity &amp; Unreal Engine</p>
+          <p class="pt-3">
+            <a class="hero-cta js-scroll" href="#work" role="button">View Portfolio<span class="cta-jp">作品を見る</span></a>
+          </p>
         </div>
       </div>
     </div>
@@ -80,66 +91,68 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
+            <div class="title-box text-center">
+              <p class="section-label">About</p>
+              <h3 class="title-a">Profile<span class="title-jp">プロフィール</span></h3>
+              <p class="subtitle-a">Game developer specializing in Unity, Unreal Engine, and blockchain-integrated experiences.</p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
             <div class="box-shadow-full">
               <div class="row">
                 <div class="col-md-6">
                   <div class="row">
                     <div class="col-sm-6 col-md-5">
                       <div class="about-img">
-                        <img src="assets/img/Imai Jiro.png" class="img-fluid rounded b-shadow-a profile-image" alt="" />
+                        <div class="profile-frame">
+                          <span class="profile-corner profile-corner-tl" aria-hidden="true"></span>
+                          <span class="profile-corner profile-corner-tr" aria-hidden="true"></span>
+                          <span class="profile-corner profile-corner-bl" aria-hidden="true"></span>
+                          <span class="profile-corner profile-corner-br" aria-hidden="true"></span>
+                          <img src="assets/img/Imai Jiro.png" class="profile-image" alt="Imai Jiro" />
+                          <span class="profile-badge">ゲーム開発者</span>
+                        </div>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
-                        <br />
                         <p>
-                          <span class="title-s">Name: </span>
+                          <span class="title-s">Name</span>
                           <span>Imai Jiro</span>
                         </p>
                         <p>
-                          <span class="title-s">City: </span>
+                          <span class="title-s">Location</span>
                           <span>Tokyo, Japan</span>
                         </p>
                         <p>
-                          <span class="title-s">Email: </span>
+                          <span class="title-s">Email</span>
                           <span>iamijiro0309@gmail.com</span>
                         </p>
-                        <!-- <p><span class="title-s">Phone: </span> <span>+8113-877-3090</span></p> -->
                       </div>
                     </div>
                   </div>
                   <div class="about-me pt-4 pt-md-0">
                     <div class="title-box-2">
-                      <h5 class="title-left" style="color: #000">About me</h5>
+                      <h5 class="title-left">About Me<span class="title-jp-inline">自己紹介</span></h5>
                     </div>
-                    <p class="lead">
-                      <img src="assets/img/dot.png" style="width: 20px" />
-                      &nbsp;I am a
-                      <span style="font-weight: 600">Game developer</span>
-                      with a total of 10 years of experiences <br />
-                      &nbsp;<img src="assets/img/round_dot.png" style="width: 10px" />
-                      &nbsp;I have 9 years of
-                      <span style="font-weight: 600">Unity Development</span>
-                      experience<br />
-                      &nbsp;<img src="assets/img/round_dot.png" style="width: 10px" />
-                      &nbsp;6 years specifically in
-                      <span style="font-weight: 600">Unreal Engine development</span><br />
-                      &nbsp;<img src="assets/img/round_dot.png" style="width: 10px" />
-                      &nbsp;5 years of
-                      <span style="font-weight: 600">Blockchain development</span><br />
-                    </p>
+                    <ul class="about-list">
+                      <li>Game developer with <strong>10 years</strong> of professional experience</li>
+                      <li><strong>9 years</strong> of Unity development across mobile, VR, and multiplayer titles</li>
+                      <li><strong>6 years</strong> of Unreal Engine 4 &amp; 5 development</li>
+                      <li><strong>5 years</strong> building blockchain-integrated games and DApps</li>
+                    </ul>
                     <hr />
                     <a href="assets/CV-2026-Jiro.pdf" download="CV-2026-Jiro.pdf" target="_blank">
-                      <button class="anim-button">
-                        Download CV
-                      </button>
+                      <button class="anim-button" type="button">Download CV</button>
                     </a>
-                    
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="skill-mf">
-                    <p class="title-s">PROGRAMMING LANGUAGES</p>
+                    <p class="title-s">Core Skills<span class="title-jp-inline">技術スキル</span></p>
                     <span class="font-white">Unity</span>
                     <span class="pull-right font-white">90%</span>
                     <div class="progress">
@@ -224,72 +237,68 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">Services</h3>
+              <p class="section-label">Services</p>
+              <h3 class="title-a">What I Do<span class="title-jp">サービス</span></h3>
               <p class="subtitle-a">
-                I hope my service will help your business.
+                End-to-end game development for studios, startups, and Web3 projects.
               </p>
               <div class="line-mf"></div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="bi bi-controller"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Unity Development</h2>
-              <p class="s-description text-center">
-                Skilled in C# Programming, Unity shader, Modeling, VR,
-                Animation, Photon server, Smartserver, Crypto integration,
-                Pixel Art, PVE & PVP. I want to work with you forever!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-headset-vr"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Unreal Engine Development</h2>
-                <p class="s-description text-center">
-                  Unreal Engine 5 Metaverse for Oculus Pro, Multiplayer Development, BluePrint, C++, Game Customize
-                </p>
-                <br />
-                <br />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-currency-bitcoin"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Blockchain Software Development</h2>
-                <p class="s-description text-center">
-                  From creating your own blockchain to the development of
-                  various DAPPs, I will provide all the services for
-                  everything you want and you will be satisfied with it.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-controller"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">P2e Game Development</h2>
+                <h2 class="s-title">Unity Development<span class="s-title-jp">ユニティ開発</span></h2>
                 <p class="s-description text-center">
-                  Nowadays, blockchain games with this feature reach millions
-                  of users every day. Who moves forward to play and earn money
-                  for themselves, along with huge investment for both
-                  individual and institutional investors.
+                  Full-cycle Unity development — C#, shaders, VR, multiplayer networking,
+                  and crypto integration for mobile and desktop platforms.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-headset-vr"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Unreal Engine<span class="s-title-jp">UE4 / UE5 開発</span></h2>
+                <p class="s-description text-center">
+                  UE5 metaverse experiences, multiplayer systems, Blueprint and C++ gameplay,
+                  and VR-ready interactive environments.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-currency-bitcoin"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Blockchain Development<span class="s-title-jp">ブロックチェーン開発</span></h2>
+                <p class="s-description text-center">
+                  Custom blockchain infrastructure and DApp development — from smart contracts
+                  to production-ready decentralized applications.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-joystick"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Play-to-Earn Games<span class="s-title-jp">P2Eゲーム開発</span></h2>
+                <p class="s-description text-center">
+                  Blockchain game design and development with token economies, NFT integration,
+                  and scalable multiplayer architecture.
                 </p>
               </div>
             </div>
@@ -312,7 +321,8 @@
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"
                   class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
+                <span class="counter-text">Projects Delivered</span>
+                <span class="counter-jp">担当プロジェクト</span>
               </div>
             </div>
           </div>
@@ -324,7 +334,8 @@
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1"
                   class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
+                <span class="counter-text">Years of Experience</span>
+                <span class="counter-jp">開発年数</span>
               </div>
             </div>
           </div>
@@ -336,7 +347,8 @@
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"
                   class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
+                <span class="counter-text">Clients Served</span>
+                <span class="counter-jp">取引クライアント</span>
               </div>
             </div>
           </div>
@@ -348,7 +360,8 @@
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1"
                   class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
+                <span class="counter-text">Awards Received</span>
+                <span class="counter-jp">受賞</span>
               </div>
             </div>
           </div>
@@ -363,14 +376,41 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">Portfolio</h3>
-              <p class="subtitle-a">Please check my portfolio kindly.</p>
+              <p class="section-label">Work</p>
+              <h3 class="title-a">Portfolio<span class="title-jp">制作実績</span></h3>
+              <p class="subtitle-a">Selected projects across Unity, Unreal Engine, and blockchain gaming.</p>
               <div class="line-mf"></div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="assets/img/work-20-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-20.png" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">TideTurn</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Unreal Engine 5.7</span>
+                      / <span class="w-date">Aug 2026</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://store.steampowered.com/app/1011850/TideTurn/">
+                        <span class="bi bi-link-45deg"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-19-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -396,7 +436,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-18-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -422,7 +462,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-17-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -448,7 +488,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-15-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -475,7 +515,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-16-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -501,7 +541,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-13-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -527,7 +567,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-10-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -553,7 +593,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-8-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -580,7 +620,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-11-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -606,7 +646,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-1-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -632,7 +672,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-5-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -657,7 +697,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-14-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -684,7 +724,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-12-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -710,7 +750,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-9-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -730,7 +770,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-6-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -756,7 +796,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-7-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -783,7 +823,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-2-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -808,7 +848,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-3-detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -898,8 +938,9 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a" style="color: aliceblue;">Review</h3>
-              <p class="subtitle-a">Please check my photopolio kindly.</p>
+              <p class="section-label">Testimonials</p>
+              <h3 class="title-a">Client Reviews<span class="title-jp">お客様の声</span></h3>
+              <p class="subtitle-a">Feedback from clients and collaborators I have worked with.</p>
               <div class="line-mf"></div>
             </div>
           </div>
@@ -910,96 +951,88 @@
               <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="content-test">
-                      <div class="row">
-                        <div class="col-sm-1">
-
-                        </div>
-                        <div class="col-sm-3">
-                          <img src="assets/img/xuan.png" style="width: 50%;" alt="" class="rounded-circle b-shadow-a">
-                          <span class="author">Xuan Seifert</span>
-                          <span class="w-ctegory">VP, Digital Content, Sequin AR</span>
-                          <br><br />
-                          <i class="bi bi-linkedin"></i><a style="color:aliceblue;"
-                            href="https://www.linkedin.com/in/xuanseifert/"> linkedin</a>
-                        </div>
-                        <div class="col-sm-6">
-                          <img src="assets/img/5star.png" alt="" />
-                          <hr />
-                          <span class="w-ctegory">Jiro has a purposeful and well-thought-out ability to build and
-                            deliver his messaging to all his colleagues.</span>
-                          <br /><br />
-                          <span class="w-ctegory" style="font-style: italic;">Xuan Seifert, Dec, 2022</span>
-                        </div>
-                      </div>
+                  <blockquote class="testimonial-box">
+                    <span class="testimonial-mark" aria-hidden="true">&ldquo;</span>
+                    <div class="testimonial-rating" role="img" aria-label="Rated 5 out of 5">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
                     </div>
-                  </div>
+                    <p class="testimonial-text">
+                      Jiro has a purposeful and well-thought-out ability to build and deliver his messaging to all
+                      his colleagues.
+                    </p>
+                    <footer class="testimonial-author">
+                      <img src="assets/img/xuan.png" alt="Xuan Seifert" class="testimonial-avatar" />
+                      <div class="testimonial-meta">
+                        <span class="author">Xuan Seifert</span>
+                        <span class="w-ctegory">VP, Digital Content, Sequin AR</span>
+                        <a class="testimonial-link" href="https://www.linkedin.com/in/xuanseifert/" target="_blank"
+                          rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                      </div>
+                      <span class="testimonial-date">Dec 2022</span>
+                    </footer>
+                  </blockquote>
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="content-test">
-                      <div class="row">
-                        <div class="col-sm-1">
-
-                        </div>
-                        <div class="col-sm-3">
-                          <img src="assets/img/smoovie.png" style="width: 50%;" alt=""
-                            class="rounded-circle b-shadow-a">
-                          <span class="author">Smoovie</span>
-                          <span class="w-ctegory">CEO, Sanko@Board Member, SankoDreamMachine</span>
-                          <br><br />
-                          <i class="bi bi-discord"></i><a style="color:aliceblue;"
-                            href="https://discordapp.com/users/smoovie420"> Discord</a>
-                        </div>
-                        <div class="col-sm-6">
-                          <img src="assets/img/5star.png" alt="" />
-                          <hr />
-                          <span class="w-ctegory">Jiro made great result for Sanko Dream Machine Main Event! His Poker
-                            is wonderful! Thanks for your great job!</span>
-                          <br /><br />
-                          <span class="w-ctegory" style="font-style: italic;">Smoovie, June, 2023</span>
-                        </div>
-                      </div>
+                  <blockquote class="testimonial-box">
+                    <span class="testimonial-mark" aria-hidden="true">&ldquo;</span>
+                    <div class="testimonial-rating" role="img" aria-label="Rated 5 out of 5">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
                     </div>
-                  </div>
+                    <p class="testimonial-text">
+                      Jiro delivered excellent results for the Sanko Dream Machine main event. His poker
+                      implementation was outstanding.
+                    </p>
+                    <footer class="testimonial-author">
+                      <img src="assets/img/smoovie.png" alt="Smoovie" class="testimonial-avatar" />
+                      <div class="testimonial-meta">
+                        <span class="author">Smoovie</span>
+                        <span class="w-ctegory">CEO, Sanko Dream Machine</span>
+                        <a class="testimonial-link" href="https://discordapp.com/users/smoovie420" target="_blank"
+                          rel="noopener"><i class="bi bi-discord"></i> Discord</a>
+                      </div>
+                      <span class="testimonial-date">June 2023</span>
+                    </footer>
+                  </blockquote>
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="content-test">
-                      <div class="row">
-                        <div class="col-sm-1">
-
-                        </div>
-                        <div class="col-sm-3">
-                          <img src="assets/img/ali.png" style="width: 50%;" alt="" class="rounded-circle b-shadow-a">
-                          <span class="author">Ali Alienzy</span>
-                          <span class="w-ctegory">CEO, MatchParty Ghost, kuwait</span>
-                          <br><br />
-                          <i class="bi bi-discord"></i><a style="color:aliceblue;"
-                            href="https://discordapp.com/users/alienezy"> Discord</a>
-                        </div>
-                        <div class="col-sm-6">
-                          <img src="assets/img/5star.png" alt="" />
-                          <hr />
-                          <span class="w-ctegory">According to the firm, Imai has been a highly positive and effective
-                            leader as well as a developer.</span>
-                          <br /><br />
-                          <span class="w-ctegory" style="font-style: italic;">Alienzy, June, 2021</span>
-                        </div>
-                      </div>
+                  <blockquote class="testimonial-box">
+                    <span class="testimonial-mark" aria-hidden="true">&ldquo;</span>
+                    <div class="testimonial-rating" role="img" aria-label="Rated 5 out of 5">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
                     </div>
-                  </div>
+                    <p class="testimonial-text">
+                      Imai has been a highly effective leader and developer, consistently delivering quality results
+                      for the team.
+                    </p>
+                    <footer class="testimonial-author">
+                      <img src="assets/img/ali.png" alt="Ali Alienzy" class="testimonial-avatar" />
+                      <div class="testimonial-meta">
+                        <span class="author">Ali Alienzy</span>
+                        <span class="w-ctegory">CEO, MatchParty Ghost, Kuwait</span>
+                        <a class="testimonial-link" href="https://discordapp.com/users/alienezy" target="_blank"
+                          rel="noopener"><i class="bi bi-discord"></i> Discord</a>
+                      </div>
+                      <span class="testimonial-date">June 2021</span>
+                    </footer>
+                  </blockquote>
                 </div>
 
               </div>
               <div class="swiper-pagination"></div>
-            </div>
-
-            <div id="testimonial-mf" class="owl-carousel owl-theme">
-
             </div>
           </div>
         </div>
@@ -1013,9 +1046,10 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">Blog</h3>
+              <p class="section-label">Writing</p>
+              <h3 class="title-a">Blog<span class="title-jp">技術ブログ</span></h3>
               <p class="subtitle-a">
-                These are my posts. These will help you to trust me.
+                Technical articles on Unity, Web3 integration, and multiplayer development.
               </p>
               <div class="line-mf"></div>
             </div>
@@ -1025,21 +1059,22 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://dev.to/imaijiro/how-to-use-solana-web3-in-unity-332d"><img src="assets/img/post-1.PNG"
-                    alt="" class="img-fluid img-blog" /></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box"></div>
+                <a href="https://dev.to/imaijiro/how-to-use-solana-web3-in-unity-332d" target="_blank" rel="noopener">
+                  <img src="assets/img/post-1.PNG" alt="How to use Solana Web3 in Unity"
+                    class="img-fluid img-blog" />
+                  <span class="blog-tag">Web3</span>
+                </a>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="https://dev.to/imaijiro/how-to-use-solana-web3-in-unity-332d">
-                    <img src="assets/img/Imai Jiro.png" alt="" class="avatar rounded-circle" />
+                  <a href="https://dev.to/imaijiro/how-to-use-solana-web3-in-unity-332d" target="_blank"
+                    rel="noopener">
+                    <img src="assets/img/Imai Jiro.png" alt="Imai Jiro" class="avatar rounded-circle" />
                     <span class="author">Imai Jiro</span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <i class="bi bi-clock"></i> 10 min read
                 </div>
               </div>
             </div>
@@ -1047,21 +1082,23 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://dev.to/imaijiro/how-to-call-javascript-functions-from-unity-c-class-in-unity-2hfm"><img
-                    src="assets/img/post-2.PNG" alt="" class="img-fluid img-blog" /></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box"></div>
+                <a href="https://dev.to/imaijiro/how-to-call-javascript-functions-from-unity-c-class-in-unity-2hfm"
+                  target="_blank" rel="noopener">
+                  <img src="assets/img/post-2.PNG" alt="How to call JavaScript functions from a Unity C# class"
+                    class="img-fluid img-blog" />
+                  <span class="blog-tag">Unity</span>
+                </a>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="https://dev.to/imaijiro/how-to-call-javascript-functions-from-unity-c-class-in-unity-2hfm">
-                    <img src="assets/img/Imai Jiro.png" alt="" class="avatar rounded-circle" />
+                  <a href="https://dev.to/imaijiro/how-to-call-javascript-functions-from-unity-c-class-in-unity-2hfm"
+                    target="_blank" rel="noopener">
+                    <img src="assets/img/Imai Jiro.png" alt="Imai Jiro" class="avatar rounded-circle" />
                     <span class="author">Imai Jiro</span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <i class="bi bi-clock"></i> 10 min read
                 </div>
               </div>
             </div>
@@ -1069,33 +1106,34 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://dev.to/imaijiro/how-to-implement-socket-communication-in-unity-and-nodejs-30h7"><img
-                    src="assets/img/post-3.PNG" alt="" class="img-fluid img-blog" /></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box"></div>
+                <a href="https://dev.to/imaijiro/how-to-implement-socket-communication-in-unity-and-nodejs-30h7"
+                  target="_blank" rel="noopener">
+                  <img src="assets/img/post-3.PNG" alt="How to implement socket communication in Unity and Node.js"
+                    class="img-fluid img-blog" />
+                  <span class="blog-tag">Networking</span>
+                </a>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="https://dev.to/imaijiro/how-to-implement-socket-communication-in-unity-and-nodejs-30h7">
-                    <img src="assets/img/Imai Jiro.png" alt="" class="avatar rounded-circle" />
+                  <a href="https://dev.to/imaijiro/how-to-implement-socket-communication-in-unity-and-nodejs-30h7"
+                    target="_blank" rel="noopener">
+                    <img src="assets/img/Imai Jiro.png" alt="Imai Jiro" class="avatar rounded-circle" />
                     <span class="author">Imai Jiro</span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <i class="bi bi-clock"></i> 10 min read
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4" style="text-align: right;">
-            <a href="https://dev.to/imaijiro" target="_blank">
-              <img src="assets/img/more-information.png" alt="" class="avatar rounded-circle c-white" />
-              <span class="devto-link">View More</span>
+          <div class="col-12 blog-more">
+            <a class="blog-more-link" href="https://dev.to/imaijiro" target="_blank" rel="noopener">
+              <i class="bi bi-journal-code"></i>
+              <span>All Articles on DEV<span class="title-jp-inline">記事一覧</span></span>
+              <i class="bi bi-arrow-right blog-more-arrow"></i>
             </a>
           </div>
         </div>
@@ -1110,8 +1148,20 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
+            <div class="title-box text-center">
+              <p class="section-label">Contact</p>
+              <h3 class="title-a">Get in Touch<span class="title-jp">お問い合わせ</span></h3>
+              <p class="subtitle-a">
+                Available for freelance projects and full-time roles worldwide.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
             <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
+              <div class="contact-card">
                 <div class="row">
                   <!-- <div class="col-md-6">
                     <div class="title-box-2">
@@ -1161,52 +1211,73 @@
                       </form>
                     </div>
                   </div> -->
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">Get in Touch</h5>
+                  <div class="col-lg-6">
+                    <h5 class="contact-block-title">Availability<span class="title-jp-inline">受付状況</span></h5>
+                    <p class="contact-lead">
+                      Open to freelance projects and full-time opportunities. I usually reply within one business
+                      day.
+                    </p>
+                    <p class="contact-lead-jp">
+                      フリーランス・正社員のご依頼を承っております。お気軽にご連絡ください。
+                    </p>
+                    <ul class="contact-list">
+                      <li>
+                        <i class="bi bi-geo-alt"></i>
+                        <span class="contact-label">Location</span>
+                        <span class="contact-value">Tokyo, Japan</span>
+                      </li>
+                      <li>
+                        <i class="bi bi-envelope"></i>
+                        <span class="contact-label">Email</span>
+                        <a class="contact-value" href="mailto:iamijiro0309@gmail.com">iamijiro0309@gmail.com</a>
+                      </li>
+                      <li>
+                        <i class="bi bi-briefcase"></i>
+                        <span class="contact-label">Engagement</span>
+                        <span class="contact-value">Freelance / Full-time</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <h5 class="contact-block-title">Direct Channels<span class="title-jp-inline">連絡先</span></h5>
+                    <div class="contact-channels">
+                      <a class="channel" href="mailto:iamijiro0309@gmail.com">
+                        <i class="bi bi-envelope-fill"></i>
+                        <span class="channel-name">Email</span>
+                        <i class="bi bi-arrow-up-right channel-arrow"></i>
+                      </a>
+                      <a class="channel" href="https://github.com/ImaiJiro" target="_blank" rel="noopener">
+                        <i class="bi bi-github"></i>
+                        <span class="channel-name">GitHub</span>
+                        <i class="bi bi-arrow-up-right channel-arrow"></i>
+                      </a>
+                      <a class="channel" href="https://discord.com/channels/jiro961223" target="_blank"
+                        rel="noopener">
+                        <i class="bi bi-discord"></i>
+                        <span class="channel-name">Discord</span>
+                        <i class="bi bi-arrow-up-right channel-arrow"></i>
+                      </a>
+                      <a class="channel" href="https://t.me/jiro961223" target="_blank" rel="noopener">
+                        <i class="bi bi-telegram"></i>
+                        <span class="channel-name">Telegram</span>
+                        <i class="bi bi-arrow-up-right channel-arrow"></i>
+                      </a>
+                      <a class="channel" href="https://teams.live.com/l/invite/FEAEPMQ72Yjs6lOuwI" target="_blank"
+                        rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-microsoft-teams" viewBox="0 0 16 16">
+                          <path
+                            d="M9.186 4.797a2.42 2.42 0 1 0-2.86-2.448h1.178c.929 0 1.682.753 1.682 1.682zm-4.295 7.738h2.613c.929 0 1.682-.753 1.682-1.682V5.58h2.783a.7.7 0 0 1 .682.716v4.294a4.197 4.197 0 0 1-4.093 4.293c-1.618-.04-3-.99-3.667-2.35Zm10.737-9.372a1.674 1.674 0 1 1-3.349 0 1.674 1.674 0 0 1 3.349 0m-2.238 9.488-.12-.002a5.2 5.2 0 0 0 .381-2.07V6.306a1.7 1.7 0 0 0-.15-.725h1.792c.39 0 .707.317.707.707v3.765a2.6 2.6 0 0 1-2.598 2.598z" />
+                          <path
+                            d="M.682 3.349h6.822c.377 0 .682.305.682.682v6.822a.68.68 0 0 1-.682.682H.682A.68.68 0 0 1 0 10.853V4.03c0-.377.305-.682.682-.682Zm5.206 2.596v-.72h-3.59v.72h1.357V9.66h.87V5.945z" />
+                        </svg>
+                        <span class="channel-name">Teams</span>
+                        <i class="bi bi-arrow-up-right channel-arrow"></i>
+                      </a>
                     </div>
-                    <div class="more-info">
-                      <p class="lead" style="color: #000">
-                        I hope to hear from you soon.
-                      </p>
-                      <ul class="list-ico">
-                        <li>
-                          <span class="bi bi-geo-alt"></span><span style="color: #555">Tokyo, Japan</span>
-                        </li>
-                        <li>
-                          <span class="bi bi-envelope"></span><span style="color: #555">
-                            iamijiro0309@gmail.com</span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li>
-                          <a href="https://discord.com/channels/jiro961223"><span class="ico-circle"><i
-                                class="bi bi-discord"></i></span></a>
-                        </li>
-                        <!-- <li>
-                          <a href="https://www.linkedin.com/in/jiro-imai-0a33b0361/"><span class="ico-circle"><i
-                                class="bi bi-linkedin"></i></span></a>
-                        </li> -->
-                        <li>
-                          <a href="https://teams.live.com/l/invite/FEAEPMQ72Yjs6lOuwI"><span class="ico-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-microsoft-teams" viewBox="0 0 16 16">
-                              <path d="M9.186 4.797a2.42 2.42 0 1 0-2.86-2.448h1.178c.929 0 1.682.753 1.682 1.682zm-4.295 7.738h2.613c.929 0 1.682-.753 1.682-1.682V5.58h2.783a.7.7 0 0 1 .682.716v4.294a4.197 4.197 0 0 1-4.093 4.293c-1.618-.04-3-.99-3.667-2.35Zm10.737-9.372a1.674 1.674 0 1 1-3.349 0 1.674 1.674 0 0 1 3.349 0m-2.238 9.488-.12-.002a5.2 5.2 0 0 0 .381-2.07V6.306a1.7 1.7 0 0 0-.15-.725h1.792c.39 0 .707.317.707.707v3.765a2.6 2.6 0 0 1-2.598 2.598z"/>
-                              <path d="M.682 3.349h6.822c.377 0 .682.305.682.682v6.822a.68.68 0 0 1-.682.682H.682A.68.68 0 0 1 0 10.853V4.03c0-.377.305-.682.682-.682Zm5.206 2.596v-.72h-3.59v.72h1.357V9.66h.87V5.945z"/>
-                            </svg>
-                          </span></a>
-                        </li>
-                        <li>
-                          <a href="https://t.me/jiro961223"><span class="ico-circle"><i
-                                class="bi bi-telegram"></i></span></a>
-                        </li>
-                        <li>
-                          <a href="https://github.com/ImaiJiro"><span class="ico-circle"><i
-                                class="bi bi-github"></i></span></a>
-                        </li>
-                      </ul>
-                    </div>
+                    <a class="contact-cta" href="mailto:iamijiro0309@gmail.com">
+                      Send a Message<span class="cta-jp">メールを送る</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1225,16 +1296,8 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <!-- <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-            <div class="credits"> -->
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
-            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div> -->
+            <p class="site-footer-jp">東京を拠点に活動するゲーム開発者</p>
+            <p class="site-footer-text">&copy; 2026 Imai Jiro. All rights reserved.</p>
           </div>
         </div>
       </div>
